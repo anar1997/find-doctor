@@ -1,0 +1,15 @@
+footer{
+    background-color: #2A2A2A;
+    .footer-wrap{
+        height: 90px !important;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: 0px !important;
+        span{
+            color: #5663C1;
+        }
+    }
+}

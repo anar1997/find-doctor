@@ -1,0 +1,60 @@
+.header-wrap {
+  background: #00a3c8;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  .header-wrap-1 {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-wrap-first {
+      color: white;
+      display: flex;
+      li {
+        display: flex;
+        flex-direction: row;
+        font-size: 17px;
+        .header-icon {
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+      }
+    }
+
+    .header-wrap-second {
+      color: white;
+      display: flex;
+      flex-direction: row;
+      ul {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        .li {
+          margin-right: 20px;
+          .icon-2 {
+            // font-size: 20px;
+          }
+        }
+      }
+      .doctor-registration {
+        background-color: #5663c1;
+        color: white;
+        height: 40px !important;
+        margin-top: auto;
+        margin-top: auto;
+        width: 200px !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
